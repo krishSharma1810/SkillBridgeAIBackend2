@@ -31,7 +31,7 @@ pillow>=10.0.0
 # Web scraping and external data sources
 google-api-python-client>=2.0.0
 duckduckgo-search>=3.0.0
-wikipedia-api>=0.5.8
+wikipedia>=0.5.8
 
 # ArXiv API support
 arxiv>=1.4.8
