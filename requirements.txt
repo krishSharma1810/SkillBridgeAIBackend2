@@ -9,5 +9,6 @@ pdfplumber>=0.10.0
 pillow>=10.0.0
 cassio>=0.1.0
 langchain>=0.1.0
+langchain_community>=0.0.35
 google-api-python-client>=2.0.0
 duckduckgo-search>=3.0.0
