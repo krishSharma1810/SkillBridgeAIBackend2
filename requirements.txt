@@ -1,19 +1,38 @@
-accelerate>=0.26.0
-transformers[torch]>=4.40.0
-torch>=2.2.0
+
+google-auth>=2.0.0
+google-auth-oauthlib>=1.0.0
+
+
+# Core dependencies
 flask>=3.0.0
 flask-cors>=4.0.0
 python-dotenv>=1.0.0
-groq>=0.3.0
-pdfplumber>=0.10.0
-pillow>=10.0.0
+
+# Machine learning and NLP
+accelerate>=0.26.0
+transformers[torch]>=4.40.0
+torch>=2.2.0
+
+# Vector database and embeddings
 cassio>=0.1.0
 langchain>=0.1.0
 langchain_community>=0.0.35
-langchain_huggingface>=0.1.0
+langchain_huggingface>=0.1.2
+sentence-transformers>=2.2.2
+
+# LLMs and AI APIs
+groq>=0.3.0
 langchain_google_genai>=0.1.0
+
+# PDF processing
+pdfplumber>=0.10.0
+pillow>=10.0.0
+
+# Web scraping and external data sources
 google-api-python-client>=2.0.0
 duckduckgo-search>=3.0.0
-google-auth>=2.0.0
-google-auth-oauthlib>=1.0.0
-sentence-transformers>=2.2.0
+wikipedia-api>=0.5.8
+
+# ArXiv API support
+arxiv>=1.4.8
+
