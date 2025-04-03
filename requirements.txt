@@ -14,7 +14,6 @@ langchain_huggingface>=0.1.0
 langchain_google_genai>=0.1.0
 google-api-python-client>=2.0.0
 duckduckgo-search>=3.0.0
-tempfile>=2.0.0
 google-auth>=2.0.0
 google-auth-oauthlib>=1.0.0
 sentence-transformers>=2.2.0
