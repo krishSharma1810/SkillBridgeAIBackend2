@@ -1,0 +1,13 @@
+accelerate>=0.26.0
+transformers[torch]>=4.40.0
+torch>=2.2.0
+flask>=3.0.0
+flask-cors>=4.0.0
+python-dotenv>=1.0.0
+groq>=0.3.0
+pdfplumber>=0.10.0
+pillow>=10.0.0
+cassio>=0.1.0
+langchain>=0.1.0
+google-api-python-client>=2.0.0
+duckduckgo-search>=3.0.0
